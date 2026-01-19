@@ -1,5 +1,5 @@
 const API_BASE =
-  process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'
+  process.env.NEXT_PUBLIC_API_URL || 'https://decision-trace-ai.onrender.com'
 
 async function apiFetch(path: string, body?: any) {
   const res = await fetch(`${API_BASE}${path}`, {

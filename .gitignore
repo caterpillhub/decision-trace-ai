@@ -1,0 +1,65 @@
+# =========================
+# Python Bytecode & Cache
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+.env/
+.env.*
+.venv/
+pip-wheel-metadata/
+
+# =========================
+# Environment & Secrets
+# =========================
+.env
+.env.local
+.env.production
+.env.development
+
+# =========================
+# OS / Editor Junk
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor Settings
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Logs & Runtime Files
+# =========================
+*.log
+logs/
+*.pid
+
+# =========================
+# Testing / Coverage
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Shell / Deployment Artifacts
+# =========================
+*.sh~
