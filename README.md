@@ -9,7 +9,6 @@ The system behaves like a thoughtful analyst — asking clarifying questions bef
 ## 🚀 Live Demo
 🔗 **Live App:** https://decision-trace-ai.vercel.app  
 🔗 **Backend API:** https://decision-trace-ai.onrender.com/docs  
-🔗 **Video Explanation:** https://drive.google.com/file/d/14_EttwaXqjH3yV5R51g1MsvAb8kOknRS/view?usp=drive_link
 
 ---
 
@@ -104,4 +103,5 @@ uvicorn app.main:app
 # Frontend
 cd frontend
 npm run dev
+
 
